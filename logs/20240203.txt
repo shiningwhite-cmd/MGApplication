@@ -1,0 +1,86 @@
+2024-02-03 11:26:17.724 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-1106
+2024-02-03 11:26:17.725 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-02-03 11:26:17.725 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to /Users/shiningwhite/Documents/GitHub/MGApplication/workspace
+2024-02-03 11:26:17.725 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-02-03 11:26:34.871 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-1106
+2024-02-03 11:26:34.871 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-02-03 11:26:34.885 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-1106
+2024-02-03 11:26:34.885 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-02-03 11:26:34.893 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-1106
+2024-02-03 11:26:34.893 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-02-03 11:26:34.899 | INFO     | __main__:main:160 - 请帮我写一篇关于 Git 的教程
+2024-02-03 11:26:34.900 | DEBUG    | metagpt.roles.role:_observe:397 - Stitch(Tutorial Assistant) observed: ['user: 请帮我写一篇关于 Git 的教程...']
+2024-02-03 11:26:34.900 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[UnderstandRequirement, WriteDirectoryInAN], state=0
+2024-02-03 11:26:37.055 | INFO     | metagpt.utils.cost_manager:update_cost:50 - Total running cost: $0.000 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 212, completion_tokens: 26
+2024-02-03 11:26:37.055 | DEBUG    | metagpt.actions.action_node:_aask_v1:269 - llm raw output:
+[CONTENT]
+{
+    "Language": "zh_cn",
+    "Topic": "Git教程"
+}
+[/CONTENT]
+2024-02-03 11:26:37.057 | DEBUG    | metagpt.actions.action_node:_aask_v1:279 - parsed_data:
+{'Language': 'zh_cn', 'Topic': 'Git教程'}
+2024-02-03 11:26:39.117 | INFO     | metagpt.utils.cost_manager:update_cost:50 - Total running cost: $0.001 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 212, completion_tokens: 137
+2024-02-03 11:26:39.118 | DEBUG    | metagpt.actions.action_node:_aask_v1:269 - llm raw output:
+# Tutorial on Git
+
+Git is a distributed version control system that is widely used for tracking changes in source code during software development. It is designed to handle everything from small to very large projects with speed and efficiency.
+
+## History of Git
+
+Git was created by Linus Torvalds in 2005 to manage the development of the Linux kernel. Since then, it has become one of the most popular version control systems in the world.
+
+## Messages
+
+0: user: 请帮我写一篇关于 Git 的教程
+
+-----
+
+[CONTENT]
+{
+    "Language": "zh_cn",
+    "Topic": "Git Tutorial"
+}
+[/CONTENT]
+2024-02-03 11:26:39.119 | DEBUG    | metagpt.actions.action_node:_aask_v1:279 - parsed_data:
+{'Language': 'zh_cn', 'Topic': 'Git Tutorial'}
+2024-02-03 11:26:39.120 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[UnderstandRequirement, WriteDirectoryInAN], state=1
+2024-02-03 11:26:40.615 | INFO     | metagpt.utils.cost_manager:update_cost:50 - Total running cost: $0.001 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 238, completion_tokens: 34
+2024-02-03 11:26:40.616 | DEBUG    | metagpt.actions.action_node:_aask_v1:269 - llm raw output:
+[CONTENT]
+{
+    "Directory": "\n        [Introduction, Installation, Basic Concepts, Branching, Merging, Collaboration]\n        "
+}
+[/CONTENT]
+2024-02-03 11:26:40.618 | DEBUG    | metagpt.actions.action_node:_aask_v1:279 - parsed_data:
+{'Directory': '\n        [Introduction, Installation, Basic Concepts, Branching, Merging, Collaboration]\n        '}
+2024-02-03 11:26:40.618 | INFO     | __main__:_act:122 - Introduction
+2024-02-03 11:26:40.618 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-1106
+2024-02-03 11:26:40.618 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-02-03 11:26:40.630 | INFO     | __main__:_act:122 - Installation
+2024-02-03 11:26:40.630 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-1106
+2024-02-03 11:26:40.631 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-02-03 11:26:40.641 | INFO     | __main__:_act:122 - Basic Concepts
+2024-02-03 11:26:40.641 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-1106
+2024-02-03 11:26:40.642 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-02-03 11:26:40.650 | INFO     | __main__:_act:122 - Branching
+2024-02-03 11:26:40.651 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-1106
+2024-02-03 11:26:40.651 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-02-03 11:26:40.659 | INFO     | __main__:_act:122 - Merging
+2024-02-03 11:26:40.659 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-1106
+2024-02-03 11:26:40.659 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-02-03 11:26:40.666 | INFO     | __main__:_act:122 - Collaboration
+2024-02-03 11:26:40.666 | INFO     | metagpt.config:get_default_llm_provider_enum:124 - LLMProviderEnum.OPENAI Model: gpt-3.5-turbo-1106
+2024-02-03 11:26:40.666 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.OPENAI
+2024-02-03 11:26:40.673 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[WriteContentInAN, WriteContentInAN, WriteContentInAN, WriteContentInAN, WriteContentInAN, WriteContentInAN], state=-1
+2024-02-03 11:26:40.673 | INFO     | __main__:main:162 - Write Directory, <class 'str'>, , , [CONTENT]
+{
+    "Directory": "\n        [Introduction, Installation, Basic Concepts, Branching, Merging, Collaboration]\n        "
+}
+[/CONTENT], {'Directory': Directory, <class 'str'>, 
+        Analyze the topic and think what is the reader want to learn from the tutorial based on this topic.
+        Then generate the subdirectories based on this topic.
+        , 
+        [subdirectory1, subdirectory2, subdirectory3]
+        , , {}}
